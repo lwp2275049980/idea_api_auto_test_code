@@ -9,5 +9,5 @@ public class GlobalConfig {
     // 预发布环境
     // 测试环境
     // 线上环境
-    public static final String url = "http://api.lemonban.com";
+    public static final String url = "http://mall.lemonban.com:8107";
 }
