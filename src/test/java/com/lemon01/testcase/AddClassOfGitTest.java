@@ -6,7 +6,7 @@ public class AddClassOfGitTest {
     public static void main(String[] args) {
         String wsx = concatString("efg",12);
         System.out.println(wsx);
-        System.out.println(wsx.getClass());
+        System.out.println(wsx.length());
     }
 
 
