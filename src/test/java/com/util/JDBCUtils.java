@@ -21,7 +21,7 @@ public class JDBCUtils {
             //SqlServer：jdbc:microsoft:sqlserver://localhost:1433; DatabaseName=DBName
             //MySql：jdbc:mysql://localhost:3306/DBName(数据库名)
                       // jdbc协议对应的访问地址     jdbc:mysql:// 这一段是固定的  端口号如果不是默认的，就指定端口号  后面是字符编码
-            String url="jdbc:mysql://mall.lemonban.com/yami_shops?useUnicode=true&characterEncoding=utf-8";
+            String url="jdbc:mysql://mall.lemonban.com/yami_shops?useUnicode=true&characterEncoding=utf-8&useSSL=true";
             String user="lemon";
             String password="lemon123";
             //定义数据库连接对象
